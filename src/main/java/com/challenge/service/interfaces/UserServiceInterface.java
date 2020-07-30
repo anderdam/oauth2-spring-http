@@ -12,6 +12,4 @@ public interface UserServiceInterface extends ServiceInterface<User> {
     List<User> findByAccelerationName(String name);
 
     List<User> findByCompanyId(Long companyId);
-
-
 }

@@ -28,5 +28,4 @@ public class CompanyController {
         return accelerationId.map(service::findByAccelerationId)
                 .orElseGet(() -> userId.map(service::findByUserId).orElse(new ArrayList<>()));
     }
-
 }

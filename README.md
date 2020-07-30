@@ -31,3 +31,9 @@ Utilize a lib [Spring Security OAuth2 AutoConfigure](https://mvnrepository.com/a
 5. `GET /user`: deverá ser acessado sem autenticação.
 
 6. `GET /company`: deverá ser acessado apenas com autenticação. Utilize a autenticação Bearer + token para conseguir acesso.
+
+Errors: 
+[ERROR]   Oauth2Test.whenLoggedInShowAllCompanys » ScriptStatementFailed Failed to execu...
+[ERROR]   Oauth2Test.whenNotLoggedInShowAllCompanys » ScriptStatementFailed Failed to ex...
+[ERROR]   Oauth2Test.whenNotLoggedInShowAllUsers » ScriptStatementFailed Failed to execu...
+
